@@ -54,7 +54,7 @@ PnL realized after a trade is invested back into the market.
 | Minimum Portfolio Balance    | 936.9271178832888           |
 | Final Balance                | 54606.410743784705          |
 | Total Fee                    | 3847.73458854482            |
-| Buy and Hold Final Balance   | 851.62                      |  
+| Buy and Hold Final Balance   | 1851.62                     |  
 
 ### Close vs PnL
 
