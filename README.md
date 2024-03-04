@@ -61,7 +61,7 @@ PnL realized after a trade is invested back into the market.
 ![close v pnl](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/5c4de19d-2734-45a0-8440-e4a1100b1f41)
 
 ### Monthly Returns
-Initially, first 3 months data is used for training( hence flat PnL from Jan 2018 - Mar 2018). After that walk-forward optimization method is used to train and predict.
+Initially, first 3 months data is used for training. After that walk-forward optimization method is used to train and predict.
 
 ![d7b726bd-0f42-4797-a8f2-00baacc24823](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/1e7e87fe-f193-474d-b401-cf6d7651264d)
 
