@@ -7,7 +7,7 @@ I am working on it to further minimize the drawdowns.
 
 ### Strategy Summary ( 2018 - 2023 )
 
-![summary](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/4e502113-c1c3-4aba-8034-12c48ef332aa)
+![summary](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/678b8e94-c166-4f79-8c42-8d3d4fade1d9)
 
 
 ## Static Backtesting
@@ -15,29 +15,30 @@ Each trade is taken with a fixed amount. In this case its 1000
 
 | Parameter               | Value                            |
 |-------------------------|----------------------------------|
-| From                    | 2018-04-08 5:30:00               |
-| To                      | 2024-01-01 5:30:00               |
-| Total Trades            | 173                              |
-| Winning Trades          | 98                               |
-| Losing Trades           | 75                               |
-| No. of Long Trades      | 173                              |
+| From                    | 2018-01-08 5:30:00               |
+| To                      | 2024-12-31 5:30:00               |
+| Total Trades            | 128                              |
+| Winning Trades          | 76                               |
+| Losing Trades           | 52                               |
+| No. of Long Trades      | 124                              |
 | No. of Short Trades     | 0                                |
-| Win Rate                | 56.65                            |
-| Gross Profit            | 5016.323570006483                |
-| Net Profit              | 4756.823570006483                |
-| Average Profit          | 27.496090000037476               |
-| Maximum Drawdown(%)     | 16.472494216937626               |
-| Average Drawdown(%)     | 2.496123682078203                |
-| Largest Win             | 914.6532809143577                |
-| Average Win             | 79.50551393887427                |
+| Benchmark Return(%)     | 11.003895980148354               |
+| Win Rate                | 59.38                            |
+| Gross Profit            | 5303.286367164537                |
+| Net Profit              | 5111.286367164537                |
+| Average Profit          | 39.93192474347295                |
+| Maximum Drawdown(%)     | 20.790708505684297               |
+| Average Drawdown(%)     | 2.2861724896457147               |
+| Largest Win             | 989.0097052182377                |
+| Average Win             | 96.1145781743257                 |
 | Largest Loss            | -111.05662446634955              |
-| Average Loss            | -38.88435897453053               |
-| Maximum Holding Time    | 52 days 00:00:00                 |
-| Average Holding Time    | 5 days 10:57:34.335260115        |
+| Average Loss            | -37.05911884695491               |
+| Maximum Holding Time    | 90 days 00:00:00                 |
+| Average Holding Time    | 5 days 08:48:45                  |
 | Maximum Dip             | 21.64276632640592                |
-| Avg. Dip                | 3.453915840516478                |
-| Sharpe Ratio            | 4.650345391512141                |
-| Sortino Ratio           | 17.909194024331814               |
+| Avg. Dip                | 3.395589860471221                |
+| Sharpe Ratio            | 5.204325570293299                |
+| Sortino Ratio           | 25.752076688191483               |
 
 ## Compounded Backtesting 
 PnL realized after a trade is invested back into the market.
@@ -45,33 +46,37 @@ PnL realized after a trade is invested back into the market.
 | Parameter                    | Value                       |
 |------------------------------|-----------------------------|
 | Initial Balance              | 1000                        |
-| Number of Trades             | 173                         |
-| Maximum Drawdown             | -26.903208189242044         |
-| Maximum PNL                  | 8678.544237402244           |
-| Minimum PNL                  | -2824.1202112591805         |
-| Max Portfolio Balance        | 43638.874850490894          |
-| Minimum Portfolio Balance    | 952.7374760384477           |
-| Final Balance                | 43456.70908105328           |
-| Total Fee                    | 3899.9128953246473          |
-| Buy and Hold Returns         | 5295.18                     |  
+| Number of Trades             | 128                         |
+| Maximum Drawdown             | -22.7875153142199           |
+| Maximum PNL                  | 18849.986400225076          |
+| Minimum PNL                  | -4714.273809317022          |
+| Max Portfolio Balance        | 56627.65517760759           |
+| Minimum Portfolio Balance    | 936.9271178832888           |
+| Final Balance                | 54606.410743784705          |
+| Total Fee                    | 3847.73458854482            |
+| Buy and Hold Final Balance   | 851.62                      |  
 
 ### Close vs PnL
 
-![pnl](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/4ee21789-dbe9-46aa-b419-6f11c227b8f4)
-
+![close v pnl](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/5c4de19d-2734-45a0-8440-e4a1100b1f41)
 
 ### Monthly Returns
+First 3 months data is used for training. After that walk-forward optimization method is used to train and predict.
 
-![monthly](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/7cdf0a73-2787-4d78-a746-4a92108d1c13)
-
+![d7b726bd-0f42-4797-a8f2-00baacc24823](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/1e7e87fe-f193-474d-b401-cf6d7651264d)
 
 ### Yearly returns with signals
 
-![2018](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/b25e1492-1423-46d7-95a1-8c3a9b3b2343)
-![2019](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/84e4a957-26bc-42cc-8114-25a31d61a9f5)
-![2020](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/a76a68fe-a3a5-477f-9921-fa7d021506ac)
-![2021](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/4b77d4cd-fe01-43c0-8dc3-cb03a0242552)
-![2022](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/4a162823-9b94-458c-a826-1ed806895351)
-![2023](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/0c947c89-6390-47a0-b034-7d24c5eef7b0)
+![280cf385-ae2f-46b8-b8ca-86b91ebbb3e7](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/19939940-752a-4c20-ac13-c26fea2c5482)
+
+![93a29489-fd32-4c0a-8ca7-5b2ce8313903](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/3d2a5db5-804b-4c78-93dc-55871dae80f4)
+
+![8d7520e8-bf86-4031-9ba1-5963026c1922](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/0a3bfded-6768-419d-b4e0-8b1c030b741e)
+
+![ab76449a-facb-4d7a-924e-68f56448df64](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/3f9d8630-855e-42df-9fbb-b01cb5d12192)
+
+![34249a05-6bd9-482c-bd52-1f439c6de10d](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/8ae4d918-9942-4cbd-bdce-bece76c95e2c)
+
+
 
 
