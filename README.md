@@ -65,7 +65,7 @@ Initially, first 3 months data is used for training. After that walk-forward opt
 
 ![d7b726bd-0f42-4797-a8f2-00baacc24823](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/1e7e87fe-f193-474d-b401-cf6d7651264d)
 
-### Yearly returns with signals
+### Yearly Close vs Pnl ( with signals )
 
 ![280cf385-ae2f-46b8-b8ca-86b91ebbb3e7](https://github.com/Grumpy-catzZ/crypto-trading-results/assets/44294632/19939940-752a-4c20-ac13-c26fea2c5482)
 
