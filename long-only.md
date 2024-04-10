@@ -1,7 +1,7 @@
 # crypto-trading-results
-
 Following are results from a recently developed quantitative trading strategy.
-Asset traded- BTCUSDT. Data used- daily OHLC from 2018 to 2023.
+
+This strategy takes bets only in long directions. Asset traded- BTCUSDT. Data used- daily OHLC from 2018 to 2023.
 
 I am working on it to further minimize the drawdowns. 
 
@@ -53,8 +53,7 @@ PnL realized after a trade is invested back into the market.
 | Max Portfolio Balance        | 56627.65517760759           |
 | Minimum Portfolio Balance    | 936.9271178832888           |
 | Final Balance                | 54606.410743784705          |
-| Total Fee                    | 3847.73458854482            |
-| Buy and Hold Final Balance   | 110.04                      |  
+| Total Fee                    | 3847.73458854482            | 
 
 ### Close vs PnL
 
